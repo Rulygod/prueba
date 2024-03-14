@@ -1,0 +1,48 @@
+body{
+	margin: 50px;
+    background-color: darkgray;
+}
+.principal{
+    background-color: darkslategray;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cajap1{
+    background-color: palevioletred;
+    margin: 20px;
+    width: 150px;    
+    height: 300px;
+    padding-top: 30px;
+    border: solid;
+    text-align: center;
+}
+.cajap2{
+    background-color: palevioletred;
+    margin-top: 20px;
+    width: 700px;    
+    height: 300px;
+    padding-top: 30px;
+    border: solid;
+    text-align: center;
+    flex-direction: column;
+}
+.caja2{
+    border: solid;
+    background-color: yellow;
+    width: 325px;
+    margin:5px;
+    height: 100px;
+    display: inline-block;
+}
+.caja2-1{ 
+    border: solid;
+    width: 650px;
+    height: 100px;
+    margin: 15px;
+    background-color: yellow;
+    position: relative;
+}
